@@ -18,7 +18,7 @@ This model is heavily constrained by its size. 25M parameters is not enough "har
 **This is expected behavior for this release, not a bug.** It proves the architecture compresses logic and attempts to reason even when factual vectors are weak.
 
 ## How to Run it
-We have provided the clean inference architecture (`nova_model.py`) and a chat script (`chat.py`). We are intentionally keeping the training curriculum (Scheduled Sampling logic) private to prevent unauthorized replication before scaling up to larger models.
+I have provided the clean inference architecture (`nova_model.py`) and a chat script (`chat.py`). I am intentionally keeping the training curriculum (Scheduled Sampling logic) private to prevent unauthorized replication before I scale up to larger models.
 
 1. Clone this repository.
 2. Ensure you have PyTorch installed.
